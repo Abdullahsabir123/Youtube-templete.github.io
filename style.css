@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    z-index: 999;
+    text-align: center;
+    background-color: black;
+    position: sticky;
+    margin: 0px;
+    padding: 5px;
+    justify-content: center;
+    top: 0px;
+}
+li{
+    list-style: none;
+    display: inline;
+    padding: 100px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.container{
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    /* border: 2px solid black; */
+    width: 20vw;
+    height: 40vh;
+    margin: auto;
+    padding: 5px;
+}
+.vd{
+    border-radius: 20px;
+    height: 80%;
+    width: 100%;
+}
